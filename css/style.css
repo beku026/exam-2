@@ -31,9 +31,10 @@
     color: #fff;
 }
 
-.btn:hover {
-    background: #57AD56;
+.header__btn:hover {
+    background-color: #57AD56;
     color: #fff;
+    border: none;
 }
 
 .header__icon {
@@ -90,4 +91,73 @@
     font-size: 13px;
     line-height: 15px;
     color: #FFFFFF;
+}
+
+.navigation {
+    display: none;
+}
+
+.section-menu__title {
+    font-size: 22px;
+    line-height: 34px;
+    font-weight: 400;
+    margin: 112px 0 12px 0;
+    text-align: center;
+    color: #1D1D1D;
+}
+
+.section-menu__dash {
+    width: 50px;
+    height: 1px;
+    background: #757575;
+    margin: 0 auto;
+}
+
+.section-menu-carts {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    margin: 43px 4px 40px 8px;
+    row-gap: 16px;
+}
+
+.section-menu-cart {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #757575;
+}
+
+.section-menu-cart-title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #1D1D1D;
+    margin-bottom: 41px;
+}
+
+.section-menu-cart-title--position {
+    margin-bottom: 4px;
+}
+
+.section-menu-cart__descrition {
+    margin-bottom: 16px;
+    display: block;
+}
+
+.section-menu-cart__descrition {
+    font-size: 13px;
+    line-height: 21px;
+    color: #626262;
+}
+
+.section-menu-cart__price {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
+    color: #1D1D1D;
+}
+
+.section-menu-cart-rigth {
+    width: 102px;
+    height: 102px;
 }
