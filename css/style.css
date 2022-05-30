@@ -7,6 +7,7 @@
 
 .header__left {
     display: flex;
+    align-items: center;
     gap: 12px;
 }
 
@@ -132,7 +133,7 @@
     font-size: 14px;
     line-height: 24px;
     color: #1D1D1D;
-    margin-bottom: 41px;
+    margin: 0 0 41px 0;
 }
 
 .section-menu-cart-title--position {
@@ -142,9 +143,6 @@
 .section-menu-cart__descrition {
     margin-bottom: 16px;
     display: block;
-}
-
-.section-menu-cart__descrition {
     font-size: 13px;
     line-height: 21px;
     color: #626262;
@@ -160,4 +158,88 @@
 .section-menu-cart-rigth {
     width: 102px;
     height: 102px;
+}
+
+.footer {
+    padding: 57px 8px 40px 8px;
+    background-color: #262626;
+}
+
+.footer-logo {
+    height: 20px;
+    width: 191px;
+}
+
+.footer-dash {
+    margin: 41px 0 32px 0;
+    background: #fff;
+    opacity: 0.4;
+}
+
+.footer-menu-lang {
+    padding: 12px 8px 12px 16px;
+    background-color: #3B3B3B;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    width: 173px;
+    margin-bottom: 32px;
+}
+
+.footer-menu-funcs__world {
+    width: 16px;
+    height: 16px;
+}
+
+.footer-menu-funcs__text {
+    font-size: 13px;
+    line-height: 15px;
+    margin: 0px 49px 0px 15px;
+}
+
+.footer-menu-funcs__options {
+    width: 14px;
+    height: 8px;
+}
+
+.footer-menu-funcs__hashtag {
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+}
+
+.footer-menu-funcs__sharp {
+    color: #49A144;
+}
+
+
+.footer-menu-funcs__icons {
+    display: flex;
+    column-gap: 18px;
+    margin: 20px 0px 43px 0px;
+}
+
+.footer-menu-funcs__icon {
+    width: 18px;
+    height: 18px;
+}
+
+.footer-menu__item a {
+    margin-bottom: 23px;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+    display: block;
+}
+
+.footer-menu-contract {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+
+.footer-menu-contract__item a {
+    font-size: 11px;
+    line-height: 13px;
+    color: #FFFFFF;
 }
