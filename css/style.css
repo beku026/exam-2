@@ -367,3 +367,126 @@
         margin: 0 220px 0px 102px;
     }
 }
+
+@media (min-width: 769px) {
+    .header {
+        padding: 16px 97px 16px 81px;
+    }
+
+    .header__icon {
+        display: block;
+    }
+
+    .welkome-section {
+        background-image: url(../img/d42ea9bbf7aff297c2e1eb5e5f3b7fa6-w1080-87.png);
+        padding: 80px 0px 0px 81px;
+        height: 364px;
+    }
+
+    .welkome-section__content {
+        position: static;
+        padding: 38px 38px;
+        margin: 0;
+        width: 389px;
+    }
+
+    .content__text {
+        display: inline-block;
+        text-align: left;
+        margin-top: 62px;
+    }
+
+    .content__label {
+        display: inline-block;
+        margin-left: 86px;
+    }
+
+    .navigation {
+        display: block;
+        padding: 32px 0 29px 81px;
+        border: 1px solid rgba(117, 117, 117, 0.2);
+    }
+
+    .navigation-menu {
+        display: flex;
+        align-items: center;
+        column-gap: 40px;
+    }
+
+    .navigation-menu__item {
+        font-size: 16px;
+        line-height: 19px;
+        color: #626262;
+    }
+
+    .navigation-menu--active {
+        color: #327430;
+    }
+
+    .section-menu__dash {
+        display: none;
+    }
+
+    .section-menu__title {
+        margin: 56px 0 32px 81px;
+        text-align: left;
+    }
+
+    .section-menu-carts {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        gap: 49px 16px;
+        margin: 0 87px 80px 81px;
+    }
+
+    .section-menu-cart {
+        border: 1px solid rgba(117, 117, 117, 0.2);
+    }
+
+    .section-menu-cart-rigth {
+        width: 170px;
+        height: 160px;
+    }
+
+    .section-menu-cart-title {
+        font-size: 16px;
+        margin: 16px 0px 83px 24px;
+    }
+
+    .section-menu-cart-title--position {
+        margin-bottom: 4px;
+    }
+
+    .section-menu-cart__descrition {
+        margin: 0 0 58px 24px;
+    }
+
+    .section-menu-cart__price {
+        margin-left: 24px;
+    }
+
+    .footer {
+        padding: 56px 87px 52px 81px;
+    }
+
+    .footer-menu {
+        display: flex;
+    }
+
+    .footer-menu-lang {
+        width: 227px;
+    }
+
+    .footer-menu-funcs__text  {
+        margin: 0px 103px 0px 16px;
+    }
+
+    .footer-menu__list--position {
+        margin: 0 154px 0 97px;
+    }
+
+    .footer-menu-contract {
+        flex-direction: row;
+        column-gap: 231px;
+    }
+} 
