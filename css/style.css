@@ -243,3 +243,127 @@
     line-height: 13px;
     color: #FFFFFF;
 }
+
+@media (min-width: 321px) and (max-width: 768px) {
+    .header {
+        padding: 16px 18px 16px 8px;
+    }
+
+    .header__icon {
+        display: block;
+    }
+
+    .welkome-section {
+        background-image: url(../img/d42ea9bbf7aff297c2e1eb5e5f3b7fa6-w1080-87.png);
+        height: 364px;
+        padding-top: 80px;
+    }
+
+    .welkome-section__content {
+        position: static;
+        padding: 38px 48px;
+        margin: 0px 328px 80px 8px;
+    }
+
+    .main-title {
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+    .content__text {
+        display: inline-block;
+        text-align: left;
+        margin-top: 62px;
+    }
+
+    .content__label {
+        display: inline-block;
+        margin-left: 109px;
+    }
+
+    .navigation {
+        display: block;
+        padding: 32px 0 29px 8px;
+        border: 1px solid rgba(117, 117, 117, 0.2);
+    }
+
+    .navigation-menu {
+        display: flex;
+        align-items: center;
+        column-gap: 40px;
+    }
+
+    .navigation-menu__item {
+        font-size: 16px;
+        line-height: 19px;
+        color: #626262;
+    }
+
+    .navigation-menu--active {
+        color: #327430;
+    }
+
+    .section-menu__dash {
+        display: none;
+    }
+
+    .section-menu__title {
+        margin: 56px 0 32px 8px;
+        text-align: left;
+    }
+
+    .section-menu-carts {
+        margin: 0px 8px 48px 8px;
+        row-gap: 32px;
+    }
+
+    .section-menu-cart {
+        border: 1px solid rgba(117, 117, 117, 0.2);
+    }
+
+    .section-menu-cart:active {
+        background-color: #757575;
+    }
+
+    .section-menu-cart-rigth {
+        width: 200px;
+        height: 160px;
+    }
+
+    .section-menu-cart-title {
+        font-size: 16px;
+        margin: 16px 0px 83px 24px;
+    }
+
+    .section-menu-cart-title--position {
+        margin-bottom: 4px;
+    }
+
+    .section-menu-cart__descrition {
+        margin: 0 0 58px 24px;
+    }
+
+    .section-menu-cart__price {
+        margin-left: 24px;
+    }
+
+    .footer-menu {
+        display: flex;
+    }
+
+    .footer-menu-lang {
+        width: 176px;
+    }
+
+    .footer-menu__list--position {
+        margin: 0 86px 0 80px;
+    }
+
+    .footer-menu-contract {
+        flex-direction: row;
+    }
+
+    .footer-menu__item--position {
+        margin: 0 220px 0px 102px;
+    }
+}
