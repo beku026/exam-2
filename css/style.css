@@ -14,38 +14,36 @@
 .header__btn {
     width: 72px;
     height: 40px;
-    background: #262626;
+    background: var(--text-color-3);
     border-radius: 2px;
     border: none;
     font-weight: 500;
-    font-size: 13px;
+    font-size: var(--font-size-3);
     line-height: 24px;
     cursor: pointer;
 }
 
 .header__btn--enter {
-    background-color: #fff;
+    background-color: var(--primary-text-color);
     border: 1px solid #E0E0E0;
 }
 
 .header__btn--register {
-    color: #fff;
+    color: var(--primary-text-color);
 }
 
-.header__btn:hover {
+.header__btn:hover,
+.header__icon path:hover {
     background-color: #57AD56;
-    color: #fff;
+    color: var(--primary-text-color);
     border: none;
+    fill: #57AD56;
 }
 
 .header__icon {
     margin-left: 11px;
     cursor: pointer;
     display: none;
-}
-
-.header__icon path:hover {
-    fill: #57AD56;
 }
 
 .welkome-section {
@@ -59,7 +57,7 @@
 .welkome-section__content {
     position: absolute;
     padding: 24px 48px;
-    background-color: #fff;
+    background-color: var(--primary-text-color);
     margin: 131px 4px 55.11px 8px;
     box-shadow: 0px 0px 16px rgba(117, 117, 117, 0.2);
     border-radius: 2px;
@@ -69,13 +67,13 @@
     font-size: 24px;
     line-height: 28px;
     font-weight: 400;
-    color: #1D1D1D;
+    color: var(--text-color-2);
 }
 
 .content__text {
     font-size: 14px;
     line-height: 16px;
-    color: #626262;
+    color: var(--text-color-3);
     display: block;
     text-align: center;
     margin: 40px 0 16px 0;
@@ -85,13 +83,13 @@
     padding: 8px 16px;
     width: 97px;
     height: 32px;
-    background: #262626;
+    background: var(--text-color-3);
     margin: 0 auto;
     border-radius: 16px;
     display: block;
-    font-size: 13px;
+    font-size: var(--font-size-3);
     line-height: 15px;
-    color: #FFFFFF;
+    color: var(--primary-text-color);
 }
 
 .navigation {
@@ -104,7 +102,7 @@
     font-weight: 400;
     margin: 112px 0 12px 0;
     text-align: center;
-    color: #1D1D1D;
+    color: var(--text-color-2);
 }
 
 .section-menu__dash {
@@ -132,7 +130,7 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    color: #1D1D1D;
+    color: var(--text-color-2);
     margin: 0 0 41px 0;
 }
 
@@ -143,16 +141,16 @@
 .section-menu-cart__descrition {
     margin-bottom: 16px;
     display: block;
-    font-size: 13px;
+    font-size: var(--font-size-3);
     line-height: 21px;
-    color: #626262;
+    color: var(--text-color-3);
 }
 
 .section-menu-cart__price {
     font-weight: 500;
     font-size: 15px;
     line-height: 21px;
-    color: #1D1D1D;
+    color: var(--text-color-2);
 }
 
 .section-menu-cart-rigth {
@@ -162,7 +160,7 @@
 
 .footer {
     padding: 57px 8px 40px 8px;
-    background-color: #262626;
+    background-color: var(--text-color-3);
 }
 
 .footer-logo {
@@ -172,7 +170,7 @@
 
 .footer-dash {
     margin: 41px 0 32px 0;
-    background: #fff;
+    background: var(--primary-text-color);
     opacity: 0.4;
 }
 
@@ -181,7 +179,7 @@
     background-color: #3B3B3B;
     display: flex;
     align-items: center;
-    color: #fff;
+    color: var(--primary-text-color);
     width: 173px;
     margin-bottom: 32px;
 }
@@ -192,8 +190,8 @@
 }
 
 .footer-menu-funcs__text {
-    font-size: 13px;
-    line-height: 15px;
+    font-size: var(--font-size-3);
+    line-height: var(--line-heigth-1);
     margin: 0px 49px 0px 15px;
 }
 
@@ -203,15 +201,14 @@
 }
 
 .footer-menu-funcs__hashtag {
-    font-size: 16px;
-    line-height: 19px;
-    color: #fff;
+    font-size: var(--font-size-2);
+    line-height: var(--line-heigth-3);
+    color: var(--primary-text-color);
 }
 
 .footer-menu-funcs__sharp {
     color: #49A144;
 }
-
 
 .footer-menu-funcs__icons {
     display: flex;
@@ -226,9 +223,9 @@
 
 .footer-menu__item a {
     margin-bottom: 23px;
-    font-size: 13px;
-    line-height: 15px;
-    color: #FFFFFF;
+    font-size: var(--font-size-3);
+    line-height: var(--line-heigth-1);
+    color: var(--primary-text-color);
     display: block;
 }
 
@@ -240,8 +237,8 @@
 
 .footer-menu-contract__item a {
     font-size: 11px;
-    line-height: 13px;
-    color: #FFFFFF;
+    line-height: var(--line-heigth-2);
+    color: var(--primary-text-color);
 }
 
 @media (min-width: 321px) and (max-width: 768px) {
@@ -266,7 +263,7 @@
     }
 
     .main-title {
-        font-size: 36px;
+        font-size: var(--h1-font-size);
         line-height: 42px;
     }
 
@@ -294,9 +291,9 @@
     }
 
     .navigation-menu__item {
-        font-size: 16px;
-        line-height: 19px;
-        color: #626262;
+        font-size: var(--font-size-2);
+        line-height: var(--line-heigth-3);
+        color: var(--text-color-3);
     }
 
     .navigation-menu--active {
@@ -318,11 +315,11 @@
     }
 
     .section-menu-cart {
-        border: 1px solid rgba(117, 117, 117, 0.2);
+        border: 1px solid hsla(0, 0%, 46%, 0.2);
     }
 
     .section-menu-cart:active {
-        background-color: #757575;
+        background-image: url(../img/Restaurant/bg-active.png);
     }
 
     .section-menu-cart-rigth {
@@ -331,7 +328,7 @@
     }
 
     .section-menu-cart-title {
-        font-size: 16px;
+        font-size: var(--font-size-2);
         margin: 16px 0px 83px 24px;
     }
 
@@ -389,7 +386,10 @@
         margin: 0;
         width: 389px;
     }
-
+    
+    .main-title{
+        font-size: var(--h1-font-size);
+    }
     .content__text {
         display: inline-block;
         text-align: left;
@@ -414,9 +414,9 @@
     }
 
     .navigation-menu__item {
-        font-size: 16px;
-        line-height: 19px;
-        color: #626262;
+        font-size: var(--font-size-2);
+        line-height: var(--line-heigth-3);
+        color: var(--text-color-3);
     }
 
     .navigation-menu--active {
@@ -440,7 +440,11 @@
     }
 
     .section-menu-cart {
-        border: 1px solid rgba(117, 117, 117, 0.2);
+        border: 1px solid hsla(0, 0%, 46%, 0.2);
+    }
+
+    .section-menu-cart:active {
+        background-image: url(../img/Restaurant/bg-active.png);
     }
 
     .section-menu-cart-rigth {
@@ -449,7 +453,7 @@
     }
 
     .section-menu-cart-title {
-        font-size: 16px;
+        font-size: var(--font-size-2);
         margin: 16px 0px 83px 24px;
     }
 
@@ -477,7 +481,7 @@
         width: 227px;
     }
 
-    .footer-menu-funcs__text  {
+    .footer-menu-funcs__text {
         margin: 0px 103px 0px 16px;
     }
 
@@ -489,4 +493,4 @@
         flex-direction: row;
         column-gap: 231px;
     }
-} 
+}
